@@ -1,0 +1,14 @@
+# Normalise line endings in the repository, check out native on each platform
+* text=auto
+
+*.py    text diff=python
+*.md    text
+*.toml  text
+*.yml   text
+*.cff   text
+*.csv   text
+
+# Binary artefacts
+*.pdf   binary
+*.png   binary
+*.npz   binary

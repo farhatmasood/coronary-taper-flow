@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "n_segments": 17,
+  "flow_rest_total_ml_min": 249.999999985,
+  "flow_hyper_total_ml_min": 907.6805303703,
+  "flow_reserve_total": 3.6307221217,
+  "left_share_pct": 63.3285217891,
+  "ffr_crossing_pct": {
+    "LMCA": 41.6141275056,
+    "LAD": 50.4773706715,
+    "LCX": 49.6348562236,
+    "RCA": 40.309042466
+  },
+  "ffr_crossing_pct_q197": {
+    "LMCA": 45.8402406911,
+    "LAD": 54.2503817254,
+    "LCX": 53.7143254975,
+    "RCA": 44.8210126215
+  },
+  "sensitivity_baseline_ffr": 0.8054694613,
+  "validation_agree": 6,
+  "validation_predicted": 10,
+  "pulsatile": {
+    "lad_df": 0.7609428669,
+    "lad_df_no_pump": 0.5751259395,
+    "lad_dsvr": 1.7070428558,
+    "lad_dsvr_no_pump": 0.7284074136,
+    "stiffness_scale": 2.5422566785,
+    "lad_wave_speed_stiff": 15.9,
+    "lad_dsvr_stiff": 1.8078281309,
+    "rca_dsvr_stiff": 1.8194159727,
+    "lad_df_stiff": 0.7712800676,
+    "lad_peak_flow": 81.4913116014,
+    "lad_peak_flow_stiff": 71.230889289
+  },
+  "rheology": {
+    "lad_wss_newtonian": 1.6245831755,
+    "lad_wss_carreau": 1.3978448999
+  },
+  "numerics": {
+    "closure_error_taper": 0.0,
+    "closure_error_segment": 0.0,
+    "closure_error_leaf": 0.0,
+    "max_residual_rel": 0.0,
+    "max_evaluations": 26,
+    "harmonic_truncation_error": 0.0111841785,
+    "max_mach_rest": 0.0410848496
+  },
+  "volumetrics": {
+    "volume_total_ml": 3.2954626258,
+    "volume_left_ml": 2.1870848615,
+    "volume_right_ml": 1.1083777643,
+    "transit_tree_s": 0.7909110302,
+    "transit_lad_path_s": 1.6845887674,
+    "transit_rca_pda_path_s": 0.7278304326
+  }
+}

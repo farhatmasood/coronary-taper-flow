@@ -1,0 +1,11 @@
+closure,bed,share_pct
+taper,LAD,8.78077
+taper,LAD1,11.1898
+taper,LAD2,40.734
+taper,LAD3,12.4248
+taper,LAD4,26.8705
+segment,LAD,8.91084
+segment,LAD1,0.783151
+segment,LAD2,43.1407
+segment,LAD4,47.1653
+leaf,LAD4,100

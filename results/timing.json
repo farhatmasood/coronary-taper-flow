@@ -1,0 +1,9 @@
+{
+  "build_and_calibrate": 0.0075451,
+  "pulsatile": 0.02370375,
+  "single_lesion_ffr": 0.002276,
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "system": "Windows 10"
+}

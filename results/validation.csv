@@ -1,0 +1,12 @@
+quantity,reference_key,role,unit,model,ref_mean,ref_sd,ref_low,ref_high,z,within_2sd_or_band,source,doi,bibkey
+Resting total flow,total_flow_rest,calibrated,mL/min,250,197,72,,,0.736111,True,Wieneke et al. 2005,10.1152/japplphysiol.00724.2004,Wieneke2005
+Hyperaemic total flow,total_flow_hyper,predicted,mL/min,907.681,637,204,,,1.32687,True,Wieneke et al. 2005,10.1152/japplphysiol.00724.2004,Wieneke2005
+Resting LCX flow,lcx_flow_rest,predicted,mL/min,51.9265,72,37,,,-0.542526,True,Sakamoto et al. 2013,10.1016/j.amjcard.2013.01.290,Sakamoto2013
+Resting RCA flow,rca_flow_rest,predicted,mL/min,91.6787,113,49,,,-0.435129,True,Sakamoto et al. 2013,10.1016/j.amjcard.2013.01.290,Sakamoto2013
+"DSVR, proximal LAD",dsvr_left_rest,predicted,-,1.70704,1.85,0.7,,,-0.204224,True,Seligman et al. 2022,10.4244/EIJ-D-21-00189,Seligman2022
+"DSVR, RCA",dsvr_right_rest,predicted,-,1.73303,1.53,0.34,,,0.59716,True,Seligman et al. 2022,10.4244/EIJ-D-21-00189,Seligman2022
+"Wave speed, proximal LAD",wave_speed,predicted,m/s,9.97212,15.9,1.8,,,-3.29327,False,Rolandi et al. 2014,10.1007/s00395-014-0405-1,Rolandi2014
+"TAWSS, proximal LAD",tawss_band,predicted,Pa,1.62406,,,1,2.5,,True,Samady et al. 2011,10.1161/CIRCULATIONAHA.111.021824,Samady2011
+"TAWSS, apical LAD",tawss_band,predicted,Pa,2.53211,,,1,2.5,,False,Samady et al. 2011,10.1161/CIRCULATIONAHA.111.021824,Samady2011
+Hyperaemic gradient to distal LAD,gradient_hyper_normal,predicted,mmHg,17.2655,3,3,,,4.75517,False,De Bruyne et al. 2001,10.1161/hc4501.099316,DeBruyne2001
+Hyperaemic gradient to distal RCA,gradient_hyper_normal,predicted,mmHg,10.4506,3,3,,,2.48353,False,De Bruyne et al. 2001,10.1161/hc4501.099316,DeBruyne2001

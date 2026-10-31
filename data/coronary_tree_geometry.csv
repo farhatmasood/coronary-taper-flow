@@ -1,0 +1,18 @@
+segment_id,segment_name,clinical_name,side,parent_id,length_mm,radius_prox_mm,radius_dist_mm,is_terminal,geometry_source
+LMCA,left main,Left main coronary artery (LM),L,AORTA_L,32.0,1.88,1.79,0,Duanmu2019
+LAD,LAD proximal,Proximal LAD,L,LMCA,27.0,1.51,1.45,0,Duanmu2019
+LAD1,LAD segment 1,Mid LAD,L,LAD,29.0,1.46,1.45,0,Duanmu2019
+LAD2,LAD segment 2,Mid-distal LAD,L,LAD1,69.0,1.38,1.06,0,Duanmu2019
+LAD3,LAD segment 3,Distal LAD,L,LAD2,47.0,1.03,1.03,0,Duanmu2019
+LAD4,LAD segment 4,Apical LAD,L,LAD3,22.0,0.88,0.77,1,Duanmu2019
+DIAG,diagonal,First diagonal / ramus (D1),L,LMCA,35.0,1.26,1.16,1,Duanmu2019
+LCX,LCX proximal,Proximal LCX,L,LMCA,21.0,1.48,1.47,0,Duanmu2019
+LCX1,LCX segment 1,Mid LCX,L,LCX,16.0,1.32,1.29,0,Duanmu2019
+LCX2,LCX segment 2,Distal LCX,L,LCX1,20.0,1.15,1.14,0,Duanmu2019
+LCX3,LCX segment 3,Left posterolateral (LCX-PL),L,LCX2,39.0,1.02,0.99,1,Duanmu2019
+MARG1,marginal 1,First obtuse marginal (OM1),L,LCX,35.0,1.16,1.08,1,Duanmu2019
+MARG2,marginal 2,Second obtuse marginal (OM2),L,LCX1,30.0,0.98,0.96,1,Duanmu2019
+MARG3,marginal 3,Third obtuse marginal (OM3),L,LCX2,37.0,1.02,1.00,1,Duanmu2019
+RCA,right coronary,Proximal-mid-distal RCA,R,AORTA_R,109.0,1.51,1.48,0,Duanmu2019
+PDA,posterior descending,Posterior descending artery (PDA),R,RCA,37.0,1.08,1.05,1,Duanmu2019
+PLA,posterolateral,Posterolateral artery (PLV),R,RCA,42.0,1.28,1.25,1,Duanmu2019

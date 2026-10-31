@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coronary-taper-flow"
+version = "1.0.0"
+description = "Mass-conserving coronary outflow from vessel taper, with reduced-order FFR and wall shear stress"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Rao Farhat Masood" }]
+keywords = [
+    "coronary artery disease", "fractional flow reserve", "wall shear stress",
+    "haemodynamics", "reduced-order model", "angiography",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.4"]
+patients = ["nibabel>=5.0", "scikit-image>=0.22", "networkx>=3.0", "matplotlib>=3.7"]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100  # scientific code keeps equations and unit comments on one line
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+# E741: single-letter names such as L (inertance) and C (compliance) are the
+# standard symbols in the transmission-line equations and read correctly here.
+ignore = ["E741"]
+
+[tool.ruff.lint.per-file-ignores]
+# Scripts prepend src/ to sys.path so the package resolves without an
+# editable install, which necessarily places imports after that statement.
+"scripts/*.py" = ["E402"]

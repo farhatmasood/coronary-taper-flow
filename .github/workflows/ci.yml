@@ -1,0 +1,44 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - python-version: "3.10"
+            numpy: "numpy<2"
+          - python-version: "3.11"
+            numpy: "numpy>=2"
+          - python-version: "3.12"
+            numpy: "numpy>=2"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install "${{ matrix.numpy }}" -e ".[dev]"
+
+      - name: Lint
+        run: ruff check src scripts tests
+
+      - name: Tests
+        run: pytest
+
+      - name: Experiments (short run)
+        run: python scripts/run_experiments.py --outdir ci-results --skip-timing --noise-draws 20 --cohort-size 20

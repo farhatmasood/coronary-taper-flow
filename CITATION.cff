@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "Coronary Taper Flow"
+version: 1.0.0
+license: MIT
+type: software
+repository-code: "https://github.com/farhatmasood/coronary-taper-flow"
+authors:
+  - family-names: Masood
+    given-names: Rao Farhat
+    email: farhatmasood.fm@gmail.com
+    affiliation: "Capital University of Science and Technology, Islamabad, Pakistan"
+keywords:
+  - coronary artery disease
+  - fractional flow reserve
+  - Murray's law
+  - reduced-order modelling
+  - angiography
+preferred-citation:
+  type: unpublished
+  title: "Coronary Taper Specifies Side-Branch Outflow: A Mass-Conserving Flow Model and Its Implications for Angiography-Derived FFR"
+  authors:
+    - family-names: Masood
+      given-names: Rao Farhat
+      affiliation: "Capital University of Science and Technology, Islamabad, Pakistan"
+    - family-names: Safdar
+      given-names: Aon
+      affiliation: "University College Dublin, Dublin, Ireland"
+    - family-names: Bilal
+      given-names: Muhammad
+      affiliation: "National Institute of Heart Diseases, Rawalpindi, Pakistan"
+    - family-names: Shiram
+      given-names: Muhammad Ali
+      affiliation: "National Institute of Heart Diseases, Rawalpindi, Pakistan"
+  year: 2026
+  notes: "Manuscript under review."

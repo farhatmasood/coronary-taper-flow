@@ -1,0 +1,12 @@
+key,quantity,unit,mean,sd,low,high,cohort,method,source,doi,bibkey
+total_flow_rest,Global resting coronary flow,mL/min,197,72,,,"28 patients, smooth coronary lumens",Intracoronary Doppler and IVUS,Wieneke et al. 2005,10.1152/japplphysiol.00724.2004,Wieneke2005
+total_flow_hyper,Global hyperaemic coronary flow,mL/min,637,204,,,"28 patients, smooth coronary lumens",Intracoronary Doppler and IVUS during adenosine,Wieneke et al. 2005,10.1152/japplphysiol.00724.2004,Wieneke2005
+lcx_flow_rest,Resting LCX flow in right-dominant hearts,mL/min,72,37,,,Right-dominant patients of the PREDICTION study,Segment volume (angiography and IVUS) over contrast transit time,Sakamoto et al. 2013,10.1016/j.amjcard.2013.01.290,Sakamoto2013
+rca_flow_rest,Resting RCA flow in right-dominant hearts,mL/min,113,49,,,Right-dominant patients of the PREDICTION study,Segment volume (angiography and IVUS) over contrast transit time,Sakamoto et al. 2013,10.1016/j.amjcard.2013.01.290,Sakamoto2013
+dsvr_left_rest,"Diastolic-to-systolic velocity ratio, left coronary, rest",-,1.85,0.70,,,"IDEAL study, 301 patients",Intracoronary Doppler,Seligman et al. 2022,10.4244/EIJ-D-21-00189,Seligman2022
+dsvr_right_rest,"Diastolic-to-systolic velocity ratio, right coronary, rest",-,1.53,0.34,,,"IDEAL study, 301 patients",Intracoronary Doppler,Seligman et al. 2022,10.4244/EIJ-D-21-00189,Seligman2022
+wave_speed,Coronary pulse wave speed,m/s,15.9,1.8,,,"14 patients, angiographically normal arteries",Two-sensor transit time over 5 cm,Rolandi et al. 2014,10.1007/s00395-014-0405-1,Rolandi2014
+tawss_band,Intermediate (non-low) wall shear stress band,Pa,,,1.0,2.5,Human coronary arteries,Category thresholds of CFD studies,Samady et al. 2011,10.1161/CIRCULATIONAHA.111.021824,Samady2011
+gradient_hyper_normal,"Aorta-to-distal pressure gradient at hyperaemia, normal arteries",mmHg,3,3,,,37 arteries in 10 subjects without atherosclerosis,Pressure wire,De Bruyne et al. 2001,10.1161/hc4501.099316,DeBruyne2001
+gradient_hyper_diffuse,"Aorta-to-distal pressure gradient at hyperaemia, diffuse disease without focal stenosis",mmHg,10,8,,,106 non-stenotic arteries in 62 patients,Pressure wire,De Bruyne et al. 2001,10.1161/hc4501.099316,DeBruyne2001
+ds_qca_threshold,Conventional angiographic diameter-stenosis threshold,%,50,,,,4086 stenoses in 2986 patients,Quantitative coronary angiography against FFR,Toth et al. 2014,10.1093/eurheartj/ehu094,Toth2014

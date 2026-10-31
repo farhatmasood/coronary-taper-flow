@@ -1,0 +1,17 @@
+# Environment in which the committed results were generated
+# (Python from conda-forge, packages from PyPI, exactly as recorded).
+#   conda env create -f environment.yml && conda activate coronary
+#   pip install -e ".[dev]"
+name: coronary
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - scipy==1.17.1
+      - pandas==2.3.3
+      - matplotlib==3.10.9
+      - pytest==9.1.1
+      - ruff==0.16.1

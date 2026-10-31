@@ -1,0 +1,21 @@
+closure,territory,reserve,flow_hyper_lad_ml_min,ffr_50,ffr_70
+taper,LAD territory,4,187.063,0.805469,0.429707
+taper,LAD territory,3,145.349,0.849302,0.496773
+taper,LAD territory,2,100.581,0.8958,0.596985
+taper,LAD territory,1.5,76.9148,0.919195,0.666749
+taper,LAD territory,1,52.3111,0.941902,0.754803
+taper,distal LAD and apex,4,187.063,0.805469,0.429707
+taper,distal LAD and apex,3,172.788,0.820403,0.450438
+taper,distal LAD and apex,2,157.435,0.836562,0.475207
+taper,distal LAD and apex,1.5,149.314,0.845123,0.48948
+taper,distal LAD and apex,1,140.874,0.854014,0.505271
+leaf,LAD territory,4,157.586,0.837378,0.475616
+leaf,LAD territory,3,130.408,0.865991,0.527063
+leaf,LAD territory,2,96.9635,0.90045,0.607602
+leaf,LAD territory,1.5,77.1718,0.919951,0.666789
+leaf,LAD territory,1,54.8006,0.940706,0.74607
+leaf,distal LAD and apex,4,157.586,0.837378,0.475616
+leaf,distal LAD and apex,3,130.408,0.865991,0.527063
+leaf,distal LAD and apex,2,96.9635,0.90045,0.607602
+leaf,distal LAD and apex,1.5,77.1718,0.919951,0.666789
+leaf,distal LAD and apex,1,54.8006,0.940706,0.74607
